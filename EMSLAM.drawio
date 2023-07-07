@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T04:19:13.860Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ydYCLxptHuUbO_pj_yRh" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T04:22:59.846Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xZ9Uy1C2pqBgcTbtjsiw" version="21.6.1" type="github">
   <diagram name="第 1 页" id="G7Pcc6TmtywT6FfzIDnz">
-    <mxGraphModel dx="1044" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="323" dy="179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YHTQ-3PsGmllSr9fGuL9-1" value="初始化系统" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHTQ-3PsGmllSr9fGuL9-2" value="获取图像帧和对应EM位姿" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
