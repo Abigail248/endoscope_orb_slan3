@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T07:05:27.833Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jBlzYrHi5xiYZnLGiIb-" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T07:08:27.553Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="fZucZWsBR2e_V5HmXvfh" version="21.6.1" type="github">
   <diagram name="第 1 页" id="G7Pcc6TmtywT6FfzIDnz">
-    <mxGraphModel dx="1365" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1365" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YHTQ-3PsGmllSr9fGuL9-20" value="&lt;h1&gt;追踪流程&lt;/h1&gt;&lt;p&gt;追踪的核心为追踪状态mState。&lt;/p&gt;&lt;p&gt;mState包含5种状态：&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S1.NO_IMAGES_YET&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S2. NOT_INITIALIZED&lt;/span&gt;&lt;/p&gt;&lt;p&gt;S3. OK&lt;/p&gt;&lt;p&gt;S4. RECENTLY_LOST&lt;/p&gt;&lt;p&gt;S5. LOST&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="110" y="30" width="222" height="240" as="geometry" />
-        </mxCell>
         <mxCell id="YHTQ-3PsGmllSr9fGuL9-176" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="273" y="173" width="502" height="620" as="geometry" />
         </mxCell>
