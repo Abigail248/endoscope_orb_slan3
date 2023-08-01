@@ -1,9 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2023-08-01T06:22:19.211Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.5" etag="NWfyM9dcTco5FULjQTVl" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-01T08:02:17.727Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="mAak2xeueFoxTtH35XVE" version="21.6.5" type="github">
   <diagram name="第 1 页" id="uBD3MsCTueKJfPrJdjAK">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LHo6IyHUVnabZnhnx_xl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LHo6IyHUVnabZnhnx_xl-1" target="LHo6IyHUVnabZnhnx_xl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LHo6IyHUVnabZnhnx_xl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LHo6IyHUVnabZnhnx_xl-1" target="LHo6IyHUVnabZnhnx_xl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LHo6IyHUVnabZnhnx_xl-1" value="随机挑选子集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LHo6IyHUVnabZnhnx_xl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LHo6IyHUVnabZnhnx_xl-2" target="LHo6IyHUVnabZnhnx_xl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LHo6IyHUVnabZnhnx_xl-2" value="计算多个二维点对的最优单映射变换矩阵" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LHo6IyHUVnabZnhnx_xl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LHo6IyHUVnabZnhnx_xl-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LHo6IyHUVnabZnhnx_xl-3" value="计算最优基础矩阵" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LHo6IyHUVnabZnhnx_xl-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LHo6IyHUVnabZnhnx_xl-4" target="LHo6IyHUVnabZnhnx_xl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LHo6IyHUVnabZnhnx_xl-4" value="根据得分SH/(SH+SF)&lt;br&gt;选择使用H/F" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LHo6IyHUVnabZnhnx_xl-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LHo6IyHUVnabZnhnx_xl-5" target="LHo6IyHUVnabZnhnx_xl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LHo6IyHUVnabZnhnx_xl-5" value="根据选择H/F计算得到变换矩阵" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LHo6IyHUVnabZnhnx_xl-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LHo6IyHUVnabZnhnx_xl-6" target="LHo6IyHUVnabZnhnx_xl-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LHo6IyHUVnabZnhnx_xl-6" value="计算得到&lt;br&gt;R.t" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LHo6IyHUVnabZnhnx_xl-15" value="三角化并选择正确的R，t并判断出初始化是否成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LHo6IyHUVnabZnhnx_xl-18" value="&lt;h1&gt;初始化成功的条件&lt;/h1&gt;&lt;p&gt;对于 H 矩阵&lt;/p&gt;&lt;p&gt;1. secondBest &amp;lt; 0.7*bestGood&lt;/p&gt;&lt;p&gt;2. bestParallax &amp;gt;= minParallax&lt;/p&gt;&lt;p&gt;3. bestGood &amp;gt;= minTriangulated&lt;/p&gt;&lt;p&gt;4. bestGood &amp;gt; 0.9*N&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;对于 F 矩阵(因为有四组R，t)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;在上述条件中加一个&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;1. nSimilar &amp;lt;= 1; bGoodx &amp;gt; 0.7 * maxGood&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="260" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="LHo6IyHUVnabZnhnx_xl-19" value="&lt;h1&gt;三角化成功的条件&lt;/h1&gt;&lt;p&gt;1. P3dC1(2) &amp;gt; 0&amp;nbsp; &amp;amp;&amp;amp; P3dC2(2) &amp;gt; 0 &amp;amp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;cosParallax &amp;gt;= 0.99998 （“infinite” points&amp;nbsp; can easily go negative）&lt;/span&gt;&lt;/p&gt;&lt;p&gt;3. squareError1 &amp;gt; th2 &amp;amp;&amp;amp; squareError2 &amp;gt; th2&lt;/p&gt;&lt;p&gt;4. cosParallax &amp;lt; 0.99998 vbGood[i] = true;&lt;/p&gt;&lt;p&gt;5.&amp;nbsp;size_t &lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt;&quot;&gt;idx = min(&lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; color: rgb(104, 151, 187);&quot;&gt;50&lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; color: rgb(204, 120, 50);&quot;&gt;,int&lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt;&quot;&gt;(vCosParallax.size()-&lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; color: rgb(104, 151, 187);&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt;&quot;&gt;))&lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; color: rgb(204, 120, 50);&quot;&gt;;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.0pt;&quot;&gt;&lt;pre&gt;parallax = acos(vCosParallax&lt;span style=&quot;color:#5f8c8a;&quot;&gt;[&lt;/span&gt;idx&lt;span style=&quot;color:#5f8c8a;&quot;&gt;]&lt;/span&gt;)*&lt;span style=&quot;color:#6897bb;&quot;&gt;180&lt;/span&gt;/&lt;span style=&quot;color:#908b25;&quot;&gt;CV_PI&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="465" width="270" height="225" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
